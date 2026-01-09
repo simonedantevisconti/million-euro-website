@@ -13,7 +13,7 @@ const BuyPixel = () => {
       <div className="row g-4">
         {/* LANDING PAGE / PORTFOLIO */}
         <div className="col-12 col-md-4">
-          <div className="card h-100 text-center">
+          <div className="card h-100 text-center border-dark">
             <div className="card-body d-flex flex-column">
               <h5 className="card-title">Landing Page / Portfolio</h5>
               <h6 className="card-subtitle mb-3 text-muted">€10 · 1 Pixel</h6>
@@ -40,16 +40,14 @@ const BuyPixel = () => {
                 See example
               </Link>
 
-              <button className="btn btn-dark mt-auto">
-                Order Now
-              </button>
+              <button className="btn btn-dark mt-auto">Order Now</button>
             </div>
           </div>
         </div>
 
         {/* MULTI PAGE WEBSITE */}
         <div className="col-12 col-md-4">
-          <div className="card h-100 text-center border-dark">
+          <div className="card h-100 text-center">
             <div className="card-body d-flex flex-column">
               <h5 className="card-title">Multi-Page Website</h5>
               <h6 className="card-subtitle mb-3 text-muted">
@@ -78,9 +76,7 @@ const BuyPixel = () => {
                 See example
               </Link>
 
-              <button className="btn btn-dark mt-auto">
-                Order Now
-              </button>
+              <button className="btn btn-dark mt-auto">Order Now</button>
             </div>
           </div>
         </div>
@@ -89,9 +85,7 @@ const BuyPixel = () => {
         <div className="col-12 col-md-4">
           <div className="card h-100 text-center">
             <div className="card-body d-flex flex-column">
-              <h5 className="card-title">
-                Full Website with Database
-              </h5>
+              <h5 className="card-title">Full Website with Database</h5>
               <h6 className="card-subtitle mb-3 text-muted">
                 €500 · 50 Pixels
               </h6>
@@ -118,9 +112,7 @@ const BuyPixel = () => {
                 See example
               </Link>
 
-              <button className="btn btn-dark mt-auto">
-                Order Now
-              </button>
+              <button className="btn btn-dark mt-auto">Order Now</button>
             </div>
           </div>
         </div>

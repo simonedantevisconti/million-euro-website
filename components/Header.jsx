@@ -8,7 +8,7 @@ const Header = () => {
         {/* Logo → Homepage */}
         <Link className="navbar-brand d-flex align-items-center" to="/">
           <img
-            src="/logo.png"
+            src="/1millionbill.png"
             alt="One Million Euro Website Logo"
             height="40"
             className="d-inline-block align-top"

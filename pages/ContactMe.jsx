@@ -150,22 +150,11 @@ const ContactMe = () => {
                     <button type="submit" className="btn btn-dark">
                       Send Email
                     </button>
-                    <a
-                      className="btn btn-outline-dark"
-                      href="mailto:simone.visconti4@gmail.com"
-                    >
-                      Open Mail Client
-                    </a>
                   </div>
                 </div>
               </form>
             </div>
           </div>
-
-          <p className="text-muted small mt-3">
-            This form opens your default email client and sends the message to{" "}
-            <strong>simone.visconti4@gmail.com</strong>.
-          </p>
         </div>
       </div>
     </div>
