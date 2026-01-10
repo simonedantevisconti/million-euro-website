@@ -54,6 +54,12 @@ const Header = () => {
             </li>
 
             <li className="nav-item">
+              <Link className="nav-link" to="/pixel-art">
+                Pixel Art
+              </Link>
+            </li>
+
+            <li className="nav-item">
               <Link className="nav-link" to="/contact">
                 Contact me
               </Link>

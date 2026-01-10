@@ -8,6 +8,7 @@ import ContactMe from "../pages/ContactMe";
 import LandingExample from "../pages/examples/LandingExample";
 import MultipageExample from "../pages/examples/MultipageExample";
 import DatabaseExample from "../pages/examples/DatabaseExample";
+import PixelArt from "../pages/PixelArt";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="faq" element={<Faq />} />
           <Route path="pixels" element={<PixelList />} />
           <Route path="contact" element={<ContactMe />} />
+          <Route path="pixel-art" element={<PixelArt />} />
 
           {/* Examples */}
           <Route path="examples/landing" element={<LandingExample />} />
