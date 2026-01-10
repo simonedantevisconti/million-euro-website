@@ -162,7 +162,8 @@ const PixelArt = () => {
   return (
     <>
       <div className="container my-5 text-center">
-        <h1 className="mb-4">Pixel Art</h1>
+        <h1 className="mb-2">Pixel Art</h1>
+        <p className="text-muted mb-4">Try to make your pixel art!</p>
 
         {/* Toolbar */}
         <div className="d-flex flex-wrap justify-content-center align-items-center gap-3 mb-3">
@@ -223,10 +224,144 @@ const PixelArt = () => {
         </div>
       </div>
 
+      {/* Pixel Gallery */}
       <div className="container my-5 text-center">
-        <div className="row">
-          <h1 className="my-3">Pixel Gallery</h1>
-          <div className="col-4"></div>
+        <h1 className="my-4">Pixel Gallery</h1>
+
+        <div className="row row-cols-1 row-cols-md-3 g-4">
+          <div className="col">
+            <div className="card h-100">
+              <img src="1.png" className="card-img-top" alt="Pixel Art 1" />
+              <div className="card-body">
+                <h5 className="card-title">Penguin</h5>
+                <p className="card-text">This penguin is made with 63 pixels</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="col">
+            <div className="card h-100">
+              <img src="2.png" className="card-img-top" alt="Pixel Art 2" />
+              <div className="card-body">
+                <h5 className="card-title">Fox</h5>
+                <p className="card-text">This fox is made with 81 pixels</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="col">
+            <div className="card h-100">
+              <img src="3.png" className="card-img-top" alt="Pixel Art 3" />
+              <div className="card-body">
+                <h5 className="card-title">Dog</h5>
+                <p className="card-text">This doggo is made with 72 pixels</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="col">
+            <div className="card h-100">
+              <img src="4.png" className="card-img-top" alt="Pixel Art 4" />
+              <div className="card-body">
+                <h5 className="card-title">Rocket</h5>
+                <p className="card-text">This rocket is made with 25 pixels</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="col">
+            <div className="card h-100">
+              <img src="5.png" className="card-img-top" alt="Pixel Art 5" />
+              <div className="card-body">
+                <h5 className="card-title">Flag</h5>
+                <p className="card-text">
+                  This italian flag is made with 93 pixels
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="col">
+            <div className="card h-100">
+              <img src="6.png" className="card-img-top" alt="Pixel Art 6" />
+              <div className="card-body">
+                <h5 className="card-title">Orca</h5>
+                <p className="card-text">This orca is made with 228 pixels</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="col">
+            <div className="card h-100">
+              <img src="7.png" className="card-img-top" alt="Pixel Art 7" />
+              <div className="card-body">
+                <h5 className="card-title">Heart</h5>
+                <p className="card-text">
+                  This heart is made with 72 pixels
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="col">
+            <div className="card h-100">
+              <img src="8.png" className="card-img-top" alt="Pixel Art 8" />
+              <div className="card-body">
+                <h5 className="card-title">Ice Cream</h5>
+                <p className="card-text">
+                  This ice cream is made with 280 pixels
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="col">
+            <div className="card h-100">
+              <img src="9.png" className="card-img-top" alt="Pixel Art 9" />
+              <div className="card-body">
+                <h5 className="card-title">Emoji</h5>
+                <p className="card-text">
+                  This Emoji is made with 306 pixels
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="col">
+            <div className="card h-100">
+              <img src="10.png" className="card-img-top" alt="Pixel Art 10" />
+              <div className="card-body">
+                <h5 className="card-title">Present</h5>
+                <p className="card-text">
+                  This present is made with 240 pixels
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="col">
+            <div className="card h-100">
+              <img src="11.png" className="card-img-top" alt="Pixel Art 11" />
+              <div className="card-body">
+                <h5 className="card-title">Pokeball</h5>
+                <p className="card-text">
+                  This pokeball is made with 196 pixels
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="col">
+            <div className="card h-100">
+              <img src="12.png" className="card-img-top" alt="Pixel Art 12" />
+              <div className="card-body">
+                <h5 className="card-title">Controller</h5>
+                <p className="card-text">
+                  This retro controller is made with 126 pixels
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </>
