@@ -1,5 +1,5 @@
 TO DO:
--Link form
--Payment method
+-Link form alla mail personale
+-Payment method linked to the blocks
 -Sample of pixel + Board
--1 Million Pixel Responsive
+-Admin page con cordinate e pagina che mostra i pixel
