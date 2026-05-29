@@ -86,6 +86,7 @@ const BuyPixel = () => {
 
               <ul className="list-unstyled mb-4">
                 <li>✔ Pixel area: 1000 pixels</li>
+                <li>Ciao Aono </li>
                 <li>✔ Custom color</li>
                 <li>✔ Up to 5 pages</li>
                 <li>✔ SEO-friendly structure</li>

@@ -167,7 +167,7 @@ export default function PixelCanvas() {
       const x0 = Math.floor(startX / BLOCK) * BLOCK;
       const y0 = Math.floor(startY / BLOCK) * BLOCK;
 
-      const w = BLOCK; // pennello = BLOCK x BLOCK (se BLOCK=1, è 1 pixel) se il blocco invece 
+      const w = BLOCK; // pennello = BLOCK x BLOCK (se BLOCK=1, è 1 pixel)
       const h = BLOCK;
 
       for (let yy = 0; yy < h; yy++) {
